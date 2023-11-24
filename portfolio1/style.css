@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(5, 5, 103);
+    border-radius: 5pxs;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.s {
+    font-size: 2rem;
+    color: rgb(201, 184, 184);
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li {
+
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    font-size: 1.0rem;
+    color: rgb(87, 92, 177);
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.first>div {
+
+    width: 30%;
+}
+
+.leftsection {
+
+    font-size: 3rem;
+    margin: 100px 0;
+
+}
+
+.rightsection img {
+
+    width: 75%;
+    margin: 40px 0;
+}
+
+.purple {
+    color: blueviolet;
+}
+#element{
+    color: blueviolet;
+}
+.second{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+main hr{
+    border: 0;
+    background-color: rgb(36, 1, 69);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.second h1{
+    font-size: 1.6rem;
+}
+.grey{
+    color: gray;
+}
+.second .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 180px 0;
+
+    display: flex;
+}
+.second .vertical{
+    height: 85px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 100px;
+}
+.img1{
+    width: 40px;
+    position: relative;
+    top: -50px;
+    left: -15px;
+}
+
+.img2{
+    width: 40px;
+    position: relative;
+    top: -60px;
+    left: -20px;
+}
+.vert-title{
+   position: relative;
+   top: 55px;
+   left: -19px;
+}
+footer{
+    background-color:rgb(5, 5, 49);
+    height: 223px;
+    padding: 23px 110px;
+    
+}
+footer ul{
+    justify-content: space-evenly;
+    list-style: none;
+    position: relative;
+    left: 400px;
+}
+footer ul li{
+     padding: 25px;
+}
+.footer{
+    display: flex;
+}
+footer p{
+    position: relative;
+    top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
